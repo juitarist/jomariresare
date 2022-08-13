@@ -7,7 +7,8 @@
 
   <!---CSS START-->
     <style>
-      body {
+    
+    body {
   background-image: url(https://images2.alphacoders.com/928/928887.jpg);
   /*upload new picture to own host */
   font-family: serif;
@@ -43,10 +44,25 @@ h1, h2, h3, p{
   width: 80%;
   background-color: rgb(239, 239, 239);
   margin-left: auto;
+  box-shadow: 8px 6px 1px 2px #000000;
+  opacity: 88%;
   margin-right: auto;
   border-radius: 15px;
   padding: 30px;
   max-width: 1200px;
+}
+
+.section {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  background-color: rgb(239, 239, 239);
+  box-shadow: 8px 6px 1px 2px #000000;
+  opacity: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  padding: 30px;
 }
 
 img {
@@ -114,6 +130,13 @@ a:hover {
 
 a:active {
   color: lightblue;
+}
+
+/* FLEXBOXES ON MUSIC PAGE */
+
+.song1,.song2, .song3, .song4 {
+  flex-grow: 1;
+  flex-wrap: wrap;
 }
     </style>
              <!---END CSS-->
@@ -201,6 +224,8 @@ a:active {
       <footer>
         <p>
           <a href="https://www.instagram.com/jomariresare" target="_blank">check out my instagram</a>
+                    <br>
+          <a href="https://juitarist.github.io/jomariresare/music.html" target="_blank">what i'm listening to rn</a>
         </p>
         <p class="endremark">have a nice day</p>
       </footer>
