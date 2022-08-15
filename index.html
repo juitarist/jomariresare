@@ -8,11 +8,11 @@
   <!---CSS START-->
     <style>
     
-    body {
+ body {
   background-image: url(https://images2.alphacoders.com/928/928887.jpg);
-
-      
-  font-family: serif;
+  /*upload new picture to own host */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   padding: 20px;
 }
 
@@ -39,32 +39,102 @@ h1, h2, h3, p{
   text-align: center;
 }
 
+/* START!! MAIN CONTAINERS OF MY WEBPAGES */
 
-
-.main {
+.header {
   width: 80%;
   background-color: rgb(239, 239, 239);
   margin-left: auto;
   box-shadow: 8px 6px 1px 2px #000000;
-  opacity: 88%;
+  opacity: 93%;
   margin-right: auto;
   border-radius: 15px;
   padding: 30px;
   max-width: 1200px;
 }
 
-.section {
-  display: flex;
-  align-items: stretch;
-  flex-wrap: wrap;
+.main {
+  width: 65%;
   background-color: rgb(239, 239, 239);
-  box-shadow: 8px 6px 1px 2px #000000;
-  opacity: 100%;
   margin-left: auto;
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.07),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.10),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.13),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.17),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.19),
+  100px 100px 80px rgba(0, 0, 0, 0.25);
+  opacity: 88%;
   margin-right: auto;
-  border-radius: 40px;
+  border-radius: 15px;
   padding: 30px;
+  max-width: 1200px;
+  text-align: center;
 }
+
+.music {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 239, 239);
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.073),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.105),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.13),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.155),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.187),
+  100px 100px 80px rgba(0, 0, 0, 0.26)
+;
+  opacity: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-radius: 28px;
+  padding: 30px 10px;
+}
+
+.photography {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 239, 239);
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.073),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.105),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.13),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.155),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.187),
+  100px 100px 80px rgba(0, 0, 0, 0.26);
+  gap: 8px;
+  max-width: 1600px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+
+.photography img {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  object-fit: contain;
+  border-radius: 5px;
+  box-shadow:
+  2px 2px 2px rgba(0, 0, 0, 0.05),
+  6px 6px 5px rgba(0, 0, 0, 0.1),
+  10px 10px 8px rgba(0, 0, 0, 0.1),
+  20px 20px 18px rgba(0, 0, 0, 0.15);
+}
+
+.photography::after {
+  content: "";
+  width: 500px;
+}
+
+
+/* END!! MAIN CONTAINERS OF MY WEBPAGES */
 
 img {
   display: block;
@@ -73,7 +143,7 @@ img {
 }
 
 hr {
-  height: 5px;
+  height: 3px;
   background-color: lightblue;
   border-color: lightblue;
 }
@@ -82,8 +152,16 @@ hr {
   margin-top: 35px;
 }
 
-h1, h2, h3 {
-  font-family: monospace, serif;
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .subtitle {
@@ -95,16 +173,18 @@ h1, h2, h3 {
 }
 
 .classtitle, .interesttitle {
-  text-align: left;
+  text-align: center;
   width: 100%;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .descrip {
-  text-align: left;
+  text-align: center;
   width: 100%;
   font-size: small;
 }
+
+/* FOOTER */
 
 footer {
   font-size: 14px;
@@ -131,6 +211,8 @@ a:active {
   color: lightblue;
 }
 
+/* FLEXBOXES ON MUSIC PAGE */
+
 .song1,.song2, .song3, .song4 {
   flex-grow: 1;
   flex-wrap: wrap;
@@ -152,7 +234,7 @@ a:active {
     
   </head>
   <body>
-    <div class="main">
+        <div class="main">
       <header>
         <h1>jomar iresare</h1>
         <p class="myself">physicist, musician, artist</p>
@@ -161,12 +243,12 @@ a:active {
       <main>
         <section>
           <h2>academic</h2>
-          <h3>CSULB - B.S. Physics - Fall 2021</h3>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OOjs_UI_icon_academic.svg/1024px-OOjs_UI_icon_academic.svg.png?20180204152244" width="300" height="300" alt="academics icon" />
+          <p>CSULB - B.S. Physics - Fall 2021</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OOjs_UI_icon_academic.svg/1024px-OOjs_UI_icon_academic.svg.png?20180204152244" width="100" height="100" alt="academics icon" />
          <!---upload new picture to own host-->
           <article class="subtitle">
             <p class="classtitle">Advanced Experimental Methods in Nanoscale Physics (Solid State Physics)</p>
-            <p class="descrip">Designed a Graphene Field Effect Transistor</p>
+            <p class="descrip">Designed, fabricated, and tested a Graphene Field Effect Transistor</p>
             <p class="descrip">Researched effects of fundamental noise at the metal-semiconductor junction and defined intereactions of increasing noise values to the Schottky barrier </p>
           </article>
           <br>
@@ -198,22 +280,22 @@ a:active {
          <!---upload new picture to own host-->
           <article class="subtitle">
             <p class="interesttitle">Music</p>
-            <p class="descrip">Guitarist and singer. also experienced with synthesizers and music production</p>
+            <p class="descrip">Multi-instumentalist, writer, and singer. Before pursuing physics, I was chasing the dreams of creating music since I absolutely love music when used well(in film, tv, etc.) Experienced with music production and audio engineering. </p>
           </article>
           <br>
           <article class="subtitle">
-            <p class="interesttitle">Photography</p>
-            <p class="descrip">A keen eye for the [a e s t h e t i c] and photographer for those <i>kodak</i> moments</p>
+            <p class="interesttitle"><a href="photography.html" target="_blank">Photography</a></p>
+            <p class="descrip">A keen eye for the [a e s t h e t i c] and photographer for those <i>kodak</i> moments. you can connect with me on <a href="https://www.instagram.com/jomariresare" target="_blank">my instagram</a>. i'll put a link at the bottom as well. You can also click the photography subtitle to check out a gallery I made.</p>
           </article>
           <br>
           <article class="subtitle">
             <p class="interesttitle">Coding</p>
-            <p class="descrip">Developing a social network with emphasis on forming meaningful relationships</p>
+            <p class="descrip">I really think coding is fun, especially since it's applicable with just a computer unlike physics which require tons of specilized equipment to perform tests and measurements. So until I have access to such a lab to do work, this shall suffice, </p>
           </article>
           <br>
           <article class="subtitle">
             <p class="interesttitle">Anime</p>
-            <p class="descrip">I'm an enjoyer of slice of life anime, but my top 3 are: Madoka, NGE, and Kara no Kyoukai</p>
+            <p class="descrip">I enjoy a wide variety of anime. My personal top 3 are Kara no Kyoukai, NGE, and Madoka.</p>
           </article>
         </section>
       </main>
@@ -221,8 +303,10 @@ a:active {
       <footer>
         <p>
           <a href="https://www.instagram.com/jomariresare" target="_blank">check out my instagram</a>
-                    <br>
-          <a href="https://juitarist.github.io/jomariresare/music.html" target="_blank">what i'm listening to rn</a>
+          <br>
+          <a href="music.html" target="_blank">music picks 4 u!</a>
+          <br>
+          <a href="photography.html" target="_blank">photo gallery of my work</a>
         </p>
         <p class="endremark">have a nice day</p>
       </footer>
