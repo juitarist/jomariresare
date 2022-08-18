@@ -4,279 +4,57 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jomar Iresare - Home</title>
-
-  <!---CSS START-->
-    <style>
-    
- body {
-  background-image: url(https://images2.alphacoders.com/928/928887.jpg);
-  /*upload new picture to own host */
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  padding: 20px;
-  background-attachment: fixed;
-}
-
-
-h1 {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 12px;
-}
-
-h1, h2, h3, p{
-  text-align: center;
-}
-.myself {
-  font-style: italic;
-  text-align: center;
-}
-      
-.endremark {
-  font-style: italic;
-}
-
-/* START!! MAIN CONTAINERS OF MY WEBPAGES */
-
-.header {
-  width: 80%;
-  background-color: rgb(239, 239, 239);
-  margin-left: auto;
-  box-shadow: 8px 6px 1px 2px #000000;
-  opacity: 93%;
-  margin-right: auto;
-  border-radius: 15px;
-  padding: 30px;
-  max-width: 1200px;
-}
-
-.main {
-  width: 78%;
-  background-color: rgb(239, 239, 239);
-  margin-left: auto;
-  box-shadow:
-  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.07),
-  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.10),
-  12.5px 12.5px 10px rgba(0, 0, 0, 0.13),
-  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.17),
-  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.19),
-  100px 100px 80px rgba(0, 0, 0, 0.25);
-  opacity: 88%;
-  margin-right: auto;
-  border-radius: 15px;
-  padding: 30px;
-  max-width: 1200px;
-  text-align: center;
-}
-
-.music {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(239, 239, 239);
-  box-shadow:
-  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.073),
-  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.105),
-  12.5px 12.5px 10px rgba(0, 0, 0, 0.13),
-  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.155),
-  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.187),
-  100px 100px 80px rgba(0, 0, 0, 0.26)
-;
-  opacity: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
-  border-radius: 28px;
-  padding: 30px 10px;
-}
-
-.photography {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(239, 239, 239);
-  box-shadow:
-  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.073),
-  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.105),
-  12.5px 12.5px 10px rgba(0, 0, 0, 0.13),
-  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.155),
-  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.187),
-  100px 100px 80px rgba(0, 0, 0, 0.26);
-  gap: 8px;
-  max-width: 1600px;
-  margin: 0 auto;
-  border-radius: 20px;
-  padding: 20px 10px;
-}
-
-.photography img {
-  width: 100%;
-  max-width: 500px;
-  height: 500px;
-  object-fit: contain;
-  border-radius: 5px;
-  box-shadow:
-  2px 2px 2px rgba(0, 0, 0, 0.05),
-  6px 6px 5px rgba(0, 0, 0, 0.1),
-  10px 10px 8px rgba(0, 0, 0, 0.1),
-  20px 20px 18px rgba(0, 0, 0, 0.15);
-}
-
-.photography::after {
-  content: "";
-  width: 500px;
-}
-
-
-/* END!! MAIN CONTAINERS OF MY WEBPAGES */
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-hr {
-  height: 3px;
-  background-color: lightblue;
-  border-color: lightblue;
-}
-
-.bottom-line {
-  margin-top: 35px;
-}
-
-h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
-  font-weight: 900;
-}
-
-h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.subtitle {
-  display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 18px;
-
-}
-
-.classtitle, .interesttitle {
-  text-align: center;
-  width: 100%;
-  font-weight: 500;
-}
-
-.descrip {
-  text-align: center;
-  width: 100%;
-  font-size: small;
-}
-
-/* FOOTER */
-
-footer {
-  font-size: 14px;
-}
-
-.closing {
-  margin-bottom: 5px;
-  text-align: center;
-}
-
-a {
-  color: red;
-}
-
-a:visited {
-  color: purple;
-}
-
-a:hover {
-  color: lightblue;
-}
-
-a:active {
-  color: lightblue;
-}
-
-/* FLEXBOXES ON MUSIC PAGE */
-
-.song1,.song2, .song3, .song4 {
-  flex-grow: 1;
-  flex-wrap: wrap;
-}
-    </style>
-             <!---END CSS-->
-    
-    
-         <!---jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    <script>
-      $(document).ready(function() {
-        $(".main").addClass("animated fadein");
-    
-      });
-    </script>    
-             <!---ENDjQuery-->
-    
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
+
+
   <body>
-        <div class="main">
+    <div class="main fadeIn">
       <header>
-        <h1>jomar iresare</h1>
+        <h1 class="hovername">jomar iresare</h1>
         <p class="myself">physicist, musician, artist</p>
+          <div class="social-links">
+            <a href="http://www.linkedin.com/in/jiresare" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="http://www.instagram.com/jomariresare" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="http://www.soundcloud.com/jomariresare" title="Soundcloud" target="_blank"><i class="fa fa-soundcloud"></i></a>
+          </div>
+        <p><img class="img"  src="https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/289080002_2457948817680680_393030274997062660_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6NL4FANAe6MAX91ZbHO&_nc_ht=scontent-lax3-1.xx&oh=00_AT-9evMAzUN1b9Xnyu_OSpE5weWakmTFCjE4WBGzOQsQ5g&oe=63023663"></p>
       </header>
       <hr>
       <main>
         <section>
-          <h2>academic</h2>
+              <h2>academic </h2>
           <p>CSULB - B.S. Physics - Fall 2021</p>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OOjs_UI_icon_academic.svg/1024px-OOjs_UI_icon_academic.svg.png?20180204152244" width="100" height="100" alt="academics icon" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OOjs_UI_icon_academic.svg/1024px-OOjs_UI_icon_academic.svg.png?20180204152244" width="50" height="50" alt="academics icon" />
          <!---upload new picture to own host-->
           <article class="subtitle">
-            <p class="classtitle">Advanced Experimental Methods in Nanoscale Physics (Solid State Physics)</p>
+            <h3>Advanced Experimental Methods in Nanoscale Physics (Solid State Physics)</h3>
             <p class="descrip">Designed, fabricated, and tested a Graphene Field Effect Transistor</p>
             <p class="descrip">Researched effects of fundamental noise at the metal-semiconductor junction and defined intereactions of increasing noise values to the Schottky barrier </p>
           </article>
           <br>
           <article class="subtitle">
-            <p class="classtitle">Electronics</p>
+            <h3>Electronics</h3>
             <p class="descrip">Designed an audio transformer circuit</p>
             <p class="descrip">Designed rectifier circuits to create a voltage limiter for an LED</p>
           </article>
           <br>
           <article class="subtitle">
-            <p class="classtitle">Computational Physics</p>
+            <h3>Computational Physics</h3>
             <p class="descrip">Designed a virtual simulation to solve orbital mechanics problems between solar bodies</p>
           </article>
           <br>
           <article class="subtitle">
-            <p class="classtitle">Pedagogical Content Knowledge in Physics</p>
+            <h3>Pedagogical Content Knowledge in Physics</h3>
             <p class="descrip">Conducted a small scale study about general physics education (K-12) on the subject
               matter of kinematics and forces to develop an educational plan to optimize physics learning with subjects from ages 8 to 30 with an interest on how well a subject could identify the relationship between forces and motions</p>
           </article>
           <br>
           <article class="subtitle">
-            <p class="classtitle">CSULB PhysTEC Scholar</p>
-            <p class="descrip">As a tutor, I helped CSULB students with physics and maths courses</p>
+            <h3>CSULB PhysTEC Scholar</h3>
+            <p class="descrip">Developed skills to educate others in physics. Tutored and mentored CSULB students in maths and physics courses</p>
           </article>
         </section>
         <hr>
@@ -285,42 +63,45 @@ a:active {
           <img src="https://icon-library.com/images/cool-anime-icon/cool-anime-icon-9.jpg" alt="umaru cool"/>
          <!---upload new picture to own host-->
           <article class="subtitle">
-            <p class="interesttitle">Music</p>
+            <h3>Music</h3>
             <p class="descrip">Multi-instumentalist, writer, and singer. Before pursuing physics, I was chasing the dreams of creating music since I absolutely love music when used well(in film, tv, etc.) Experienced with music production and audio engineering </p>
           </article>
           <br>
           <article class="subtitle">
-            <p class="interesttitle">Photography</p>
-            <p class="descrip"><a href="photography.html" target="_blank">photo gallery 1</a></p>
-                      <p class="descrip"><a href="photoslides.html" target="_blank">photo gallery 2</a></p>
-                      <p class="descrip"><a href="gallery.html" target="_blank">main gallery</a></p>
-              <p class="descrip">A keen eye for the [ a e s t h e t i c ] and photographer for those <i>kodak</i> moments. you can connect with me on <a href="https://www.instagram.com/jomariresare" target="_blank">my instagram</a>. i'll put a link at the bottom as well. You can also click the photography subtitle to check out a gallery I made</p>
+            <h3>Photography</h3>   
+              <p class="descrip">A keen eye for the [ a e s t h e t i c ] and photographer for those <i>kodak</i> moments. you can connect with me on <a href="https://www.instagram.com/jomariresare" target="_blank">my instagram</a>. You can also check out my photo galleries</p>
+                <p class="descrip"><a href="gallery.html" target="_blank">main gallery [js/css/html]</a></p>
+                <p class="descrip"><a href="experiments.html" target="_blank">cool experiments [html/css]</a></p>
+                <p class="descrip"><a href="photoslides.html" target="_blank">photo gallery 2 [html/css/js]</a></p>
           </article>
           <br>
           <article class="subtitle">
-            <p class="interesttitle">Coding</p>
+            <h3>Coding</h3>
             <p class="descrip">I really think coding is fun. It's a mix of technical knowledge and also aesthetic styling, at least for webdev </p>
           </article>
           <br>
           <article class="subtitle">
-            <p class="interesttitle">Anime</p>
+            <h3>Anime</h3>
             <p class="descrip">I enjoy a wide variety of anime. My personal top 3 are Kara no Kyoukai, NGE, and Madoka</p>
           </article>
         </section>
       </main>
       <hr class="bottom-line">
       <footer>
-        <p>
-          <a href="https://www.instagram.com/jomariresare" target="_blank">check out my instagram</a>
-          <br>
-          <a href="music.html" target="_blank">current favorite songs</a>
-          <br>
-          <a href="photography.html" target="_blank">photo gallery 1</a>
-          <br>
+          <a href="music.html" target="_blank">current favorite songs</a> |
+          <a href="gallery.html" target="_blank">main photo gallery</a> |
+          <a href="experiments.html" target="_blank">cool experiments</a> |
           <a href="photoslides.html" target="_blank">photo gallery 2</a>
+
           <br>
-          <a href="gallery.html" target="_blank">main photo gallery</a>
-        <p class="closing">have a nice day</p>
+        <p>have a nice day</p>
+
+        <div class="social-links">
+          <a href="http://www.linkedin.com/in/jiresare" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="http://www.instagram.com/jomariresare" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="http://www.soundcloud.com/jomariresare" title="Soundcloud" target="_blank"><i class="fa fa-soundcloud"></i></a>
+        </div>
+        
       </footer>
     </div>
   </body>
