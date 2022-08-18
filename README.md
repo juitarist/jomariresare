@@ -1,4 +1,4 @@
 # jomariresare
 My Website
 
-This is just a temporary place for my webCV
+This is some sort of WebCV or about me
