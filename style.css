@@ -10,12 +10,12 @@ body {
 
 header .img {
   object-fit: contain;
-  max-width: 350px;
+  max-width: 250px;
 }
 
 section .img {
   object-fit: contain;
-  max-width: 350px;
+  max-width: 250px;
 }
 
 .myself {
@@ -116,9 +116,9 @@ section .img {
 }
 
 .experiments img {
-  max-width: 600px;
-  height: 400px;
-  object-fit: scale-down;
+  max-width: 400px;
+  height: 300px;
+  object-fit: contain;
   border-radius: 0px;
   box-shadow: 0px 0px 0px 1px #fff;
 }
