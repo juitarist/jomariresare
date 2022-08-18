@@ -34,7 +34,7 @@ section .img {
 }
 
 .main {
-  width: 65%;
+  width: 77%;
   background-color: #F6F4F3;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -50,7 +50,6 @@ section .img {
   border-radius: 15px;
   padding: 30px;
   max-width: 1200px;
-  min-width: 400px;
   text-align: center;
 
 
