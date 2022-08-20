@@ -36,7 +36,10 @@ a {
 
 .toppermenu {
   display: flex;
+
+  background: url(https://images2.alphacoders.com/928/928887.jpg);
   background-color: #222;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.83);
   align-items: center;
   justify-content: center;
   min-height: 100vh;
@@ -64,6 +67,8 @@ a {
 
 .bottomer {
   display: block;
+  background: url(https://images2.alphacoders.com/928/928887.jpg);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
   background-color: #222;
   padding-top: 1vh;
   padding-bottom: 2vh;
