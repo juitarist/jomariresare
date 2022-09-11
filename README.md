@@ -17,16 +17,17 @@
 
 **Jomar Iresare**
 
-- [Website](https://jomariresare.com "Welcome")
+- [Web 2.0 Website](https://jomariresare.com "Ullo!!")
+- [Web 1.X Website...This Repo](https://juitarist.github.io/jomariresare/ "You're looking at it!!")
 
 ## 🤝 Support
 
 Glitter mouse hover by:
-/****************************
+
  *  Tinkerbell Magic Sparkle *
  * (c) 2005 mf2fm web-design *
  *  http://www.mf2fm.com/rv  *
- ****************************/
+
 
 Comments and critiques are welcome!
 
