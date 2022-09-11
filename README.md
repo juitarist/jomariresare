@@ -1,4 +1,3 @@
-# jomariresare
-My Website
+<h1 align="left">Jomar Iresare's Web 1.X Website</h1>
 
-This is some sort of WebCV or about me
+<p align="left">This is some sort of WebCV or about me</p>
