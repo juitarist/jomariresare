@@ -1,41 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jomar Iresare - Music</title>
-    <link rel="stylesheet" href="/jomariresare/style.css"/>
-  </head>
-  <body>
 
-    <div class="header">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles_2.css">
+    <title>Jomar - Musical Musings</title>
+    <script type="text/javascript" src="music.js"></script>
+</head>
 
-    <h3>
-        current songs on repeat
-    </h3>
-
-    <p>here are some of the songs that i currently play on repeat while working. i hope you give them a listen.</p>
-</div>
-<br>
-<br>
-<div class="music">
-
-
-        <article class="song1">
-            <iframe width="240" height="135" src="https://www.youtube.com/embed/8cR33pwhGS0" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </article>
-    
-        <article class="song2">
-            <iframe width="240" height="135" src="https://www.youtube.com/embed/wr_k36Zmo5g" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </article>
-        
-        <article class="song3">
-            <iframe width="240" height="135" src="https://www.youtube.com/embed/kzZ6KXDM1RI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </article>
-
-        <article class="song4">
-            <iframe width="240" height="135" src="https://www.youtube.com/embed/uFnwYpUQ3vM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </article>
+<body>
+    <header>
+        <img src="images/animehamutarou.gif">
+        <h1>
+            Jomar's Musical Musings!!
+        </h1>
+        <img src="images/animehamutarou.gif">
+    </header>
 
 
-</div>
+    <div class="page-count">
+        <script type="text/javascript">
+            if (localStorage.pagecount)
+                {
+                localStorage.pagecount=Number(localStorage.pagecount) +1;
+                }
+            else
+            {
+                localStorage.pagecount=1;
+                }
+            document.write("You've been here "+ localStorage.pagecount + " time(s).");
+        </script>
+    </div>
+
+
+    <div class="featuredalbum">
+
+        <div class="topalbum">
+            <h1>Top Album</h1>
+            <ul class="topalbumdeets">
+                <li>Artist: John Mayer</li>
+                <li>Album: Continuum</li>
+                <li>Year: 2006</li>
+                <li>
+                    <div class="reason">Reasoning: Great riffs, clean sounds. Influenced my musical tastes and stylings
+                        <div class="tooltip">Also his stuff was hella popular with the ladies</div>
+                    </div>
+                </li>
+
+                    <br><br><br><br><br><br><br><br><br>
+
+            </ul>
+            <h2>Currently listening to:</h2>
+            <div class="audio-player">"Tifa's Theme" by Nobuo Uematsu 
+                <div class="tooltip">Not putting John Mayer's stuff to prevent copyright lol.</div>
+                </div>
+            <audio src="images/tifas_theme.mp3" autoplay loop controls></audio>
+        </div>
+    <img src="images/continuum.jpg">
+    </div>
+
+
+    <div class="about">
+        <h1 class="blink">Musical Tastes</h1>
+        <p>I grew up on 90's hip-hop, techno, and pop. Then during the 2000's I was really into r&b. During that time, I also really got into VGM after playing so many RPGs with spectacular composers. I sum it up to the melodies and harmonies of the music. This was evident when I discovered Vocaloid music. Almost like video game MIDIs, their melodies were on point and very pleasing to my ear. As it happens, those melodies were easy to make for Japanese composers since it seems, those are natural melodies in their musical culture. After this whole paragraph, I'm just trying to say I love melodies of music.</p>
+        <p>Here's a list of some songs that I think can provide insight on my musical tastes. Some old, some new. Allegedly, I'm a hopeless romantic le mao. If I get to it, I'll end up making some more top albums or artists. Cheers.</p>
+        <p>In order to truly appreciate them, please read the translations of the lyrics (if applicable, some are instrumental). These lyrics are incredibly meaningful. As a writer, it's almost unfair how beautiful they can write the lyrics and melody.</p>
+    <div class="songlist">
+        <ul>
+            <li class="song"><a href="https://youtu.be/jgjxYzK1tyM" target="_blank">Utada Hikaru - First Love</a> </li>
+            <li class="song"><a href="https://youtu.be/yXZd7xVdpJ0" target="_blank">Yuuri - Dry Flower</a> </li>
+            <li class="song"><a href="https://youtu.be/ilnLczvLGAY" target="_blank">Gen Hoshino - FUSHIGI</a> </li>
+            <li class="song"><a href="https://youtu.be/bS0wMG9Jxow" target="_blank">KOKIA - Hontou no Oto</a> </li>
+            <li class="song"><a href="https://youtu.be/7GN0j2VnPIQ" target="_blank">NISSY - My Prettiest Girl</a> </li>
+            <li class="song"><a href="https://youtu.be/wUbUmk1oU38" target="_blank">Stephen Speaks - Out Of My League</a> </li>
+            <li class="song"><a href="https://youtu.be/OP_llyfMuI0" target="_blank">suisoh - はやく夜え</a> </li>
+            <li class="song"><a href="https://youtu.be/hG1gbOjWWdI" target="_blank">Norihiro Tsuru - Last Carnival</a> </li>
+            <li class="song"><a href="https://youtu.be/PwC1MxbVr8U" target="_blank">mamerico - kirari futari</a> </li>
+            <li class="song"><a href="https://youtu.be/CvFH_6DNRCY" target="_blank">Debussy - Clair de lune</a> </li>
+            <li class="song"><a href="https://youtu.be/oyxklxISius" target="_blank">Seven Lions - First Time</a> </li>
+            <li class="song"><a href="https://youtu.be/-Js_-DtskxM" target="_blank">Wave Racer - Flash Drive</a> </li>
+            <li class="song"><a href="https://youtu.be/JaBmR8tC1oU" target="_blank"> GigaReol x EVO+ - [A]ddiction</a> </li>
+
+        </ul>
+    </div>
+            
+        <div class="anime">
+            <img src="images/TOTORO.gif">
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="sitesigs">
+            <img class="sigs" src="images/anime50.gif">
+            <a onclick="evabanner()"><img class="sigs" src="images/eva_88.gif"></a>
+            <img class="sigs" src="images/buble01.gif"></a>
+            <img class="sigs" src="images/Sonic1.gif">
+            <a onclick="dkong()"><img class="sigs" src="images/dk64gaming.gif"></a>
+        </div>
+
+        <div class="weblink">
+            <img src="images/maid.gif">
+            <a target="_blank" href="https://juitarist.github.io/jomariresare/">Back to Web 1.9X Website</a>
+            <a target="_blank" href="https://www.jomariresare.com">jomariresare.com</a>
+            <img src="images/sanriofrog.gif">
+        </div>
+    </footer>
+</body>
+
+</html>
