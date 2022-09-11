@@ -1,6 +1,6 @@
 <h1 align="left">Jomar Iresare's Web 1.X Website</h1>
 
-<p align="left">This is some sort of WebCV or about me</p>
+<p align="left">This is my more personal Web 1.x website. I feel like Web 2.0 feels a bit constrained and professional, so I have my little personal Myspace here.</p>
 
 ## Built With
 
